@@ -4,32 +4,49 @@
     <meta charset="UTF-8" />
     <meta name="viewport" content="width=device-width, initial-scale=1.0" />
     <title>WebStudio</title>
+    <link rel="preconnect" href="https://fonts.googleapis.com" />
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
+    <link
+      href="https://fonts.googleapis.com/css2?family=Raleway:ital,wght@0,100..900;1,100..900&family=Roboto:ital,wght@0,100;0,300;0,400;0,500;0,700;0,900;1,100;1,300;1,400;1,500;1,700;1,900&display=swap"
+      rel="stylesheet"
+    />
+    <link rel="stylesheet" href="./css/styles.css" />
   </head>
   <body>
     <!-- Header logo and <nav> -->
 
     <header>
-      <nav>
+      <nav class="header-nav">
         <section>
-          <a href="./index.html">Web<span>Studio</span></a>
-          <ul>
-            <li>
-              <p>Studio</p>
-            </li>
-            <li>
-              <p>Portfolio</p>
-            </li>
-            <li>
-              <p>Contacts</p>
-            </li>
-          </ul>
+          <a class="web-header" href="./index.html"
+            >Web<span class="studio-header">Studio</span></a
+          >
+          <div>
+            <ul class="list-nav">
+              <li>
+                <p>Studio</p>
+              </li>
+              <li>
+                <p>Portfolio</p>
+              </li>
+              <li>
+                <p>Contacts</p>
+              </li>
+            </ul>
+          </div>
         </section>
         <!-- Address header -->
 
         <section>
           <address>
-            <a href="mailto:info@devstudio.com"> info@devstudio.com</a> <br />
-            <a href="tel:+110001111111"> +11 (000) 111-11-11</a> <br />
+            <a class="header-address" href="mailto:info@devstudio.com">
+              info@devstudio.com</a
+            >
+            <br />
+            <a class="header-address" href="tel:+110001111111">
+              +11 (000) 111-11-11</a
+            >
+            <br />
           </address>
         </section>
       </nav>
@@ -38,19 +55,21 @@
       <!-- Main text and main button -->
 
       <section>
-        <h1>Effective Solutions for Your Business</h1>
+        <h1 class="effective-solutions-for-your-business">
+          Effective Solutions for Your Business
+        </h1>
       </section>
       <section>
-        <button type="button">Order Service</button>
+        <button class="order-service" type="button">Order Service</button>
       </section>
-      <h2>Empty text</h2>
+      <h2 class="visually-hidden">Analysis</h2>
       <!-- Punktualny text -->
 
       <ul>
         <section>
           <li>
-            <h3>Strategy</h3>
-            <p>
+            <h3 class="analysis-main">Strategy</h3>
+            <p class="analysis-text">
               Our goal is to identify the business problem to walk away with the
               perfect and creative solution.
             </p>
@@ -58,17 +77,17 @@
         </section>
         <section>
           <li>
-            <h3>Punctuality</h3>
-            <p>
+            <h3 class="analysis-main">Punctuality</h3>
+            <p class="analysis-text">
               Bring the key message to the brand's audience for the best price
-              within the shortest possible time./p>
+              within the shortest possible time.
             </p>
           </li>
         </section>
         <section>
           <li>
-            <h3>Diligence</h3>
-            <p>
+            <h3 class="analysis-main">Diligence</h3>
+            <p class="analysis-text">
               Research and confirm brands that present the strongest digital
               growth opportunities and minimize risk.
             </p>
@@ -76,8 +95,8 @@
         </section>
         <section>
           <li>
-            <h3>Technologies</h3>
-            <p>
+            <h3 class="analysis-main">Technologies</h3>
+            <p class="analysis-text">
               Design practice focused on digital experiences. We bring forth a
               deep passion for problem-solving.
             </p>
@@ -85,52 +104,149 @@
         </section>
       </ul>
       <section>
-        <h2>Our Team</h2>
+        <!-- Our Team -->
+
+        <h2 class="our-team-main">Our Team</h2>
         <ul>
           <li>
-            <img
-              src="./images/our-team/mark-guerrero.jpg"
-              alt="Smiling colleague with short hair and beard"
-            />
-            <h3>Mark Guerrero</h3>
-            <p>Product Designer</p>
+            <div class="container-img-team">
+              <img
+                src="./images/our-team/mark-guerrero.jpg"
+                alt="Smiling
+              colleague with short hair and beard"
+                width="264px"
+                height="260px"
+              />
+              <h3 class="name-our-team">Mark Guerrero</h3>
+              <p class="text-our-team">Product Designer</p>
+            </div>
           </li>
           <li>
-            <img
-              src="./images/our-team/tom-ford.jpg"
-              alt="Smiling colleague with short beard"
-            />
-            <h3>Tom Ford</h3>
-            <p>Frontend Developer</p>
+            <div class="container-img-team">
+              <img
+                src="./images/our-team/tom-ford.jpg"
+                alt="Smiling colleague with short beard"
+                width="264px"
+                height="260px"
+              />
+              <h3 class="name-our-team">Tom Ford</h3>
+              <p class="text-our-team">Frontend Developer</p>
+            </div>
           </li>
           <li>
-            <img
-              src="./images/our-team/camila-garcia.jpg"
-              alt="Beautiful collegue girl"
-            />
-            <h3>Camila Garcia</h3>
-            <p>Marketing</p>
+            <div class="container-img-team">
+              <img
+                src="./images/our-team/camila-garcia.jpg"
+                alt="Beautiful collegue girl"
+                width="264px"
+                height="260px"
+              />
+              <h3 class="name-our-team">Camila Garcia</h3>
+              <p class="text-our-team">Marketing</p>
+            </div>
           </li>
           <li>
-            <img
-              src="./images/our-team/daniel-wilson.jpg"
-              alt="Smiling kind man in a t-shirt"
-            />
-            <h3>Daniel Wilson</h3>
-            <p>UI Designer</p>
+            <div class="container-img-team">
+              <img
+                src="./images/our-team/daniel-wilson.jpg"
+                alt="Smiling kind man in a t-shirt"
+                width="264px"
+                height="260px"
+              />
+              <h3 class="name-our-team">Daniel Wilson</h3>
+              <p class="text-our-team">UI Designer</p>
+            </div>
           </li>
         </ul>
-        <section>
-          <h2>Our Portfolio</h2>
-        </section>
+      </section>
+      <!-- Our Portfolio -->
+
+      <section>
+        <h2 class="our-portfolio-main">Our Portfolio</h2>
+        <ul class="our-portfolio-list">
+          <li>
+            <div>
+              <img
+                src="./images/our-portfolio/banking-app.jpg"
+                alt="Banking application"
+                width="360"
+                height="300"
+              />
+              <h3 class="portfolio">Banking App</h3>
+              <p class="portfolio-text">App</p>
+            </div>
+          </li>
+          <li>
+            <div class="container-img-portfolio">
+              <img
+                src="./images/our-portfolio/cashless-payment.jpg"
+                alt="Payment via QR code"
+                width="360"
+                height="300"
+              />
+              <h3 class="portfolio">Cashless Payment</h3>
+              <p class="portfolio-text">Marketing</p>
+            </div>
+          </li>
+          <li>
+            <div class="container-img-portfolio">
+              <img
+                src="./images/our-portfolio/meditation-app.jpg"
+                alt="Meditation app"
+                width="360"
+                height="300"
+              />
+              <h3 class="portfolio">Meditation App</h3>
+              <p class="portfolio-text">App</p>
+            </div>
+          </li>
+          <li>
+            <div class="container-img-portfolio">
+              <img
+                src="./images/our-portfolio/taxi-service.jpg"
+                alt="Taxi car interior"
+                width="360"
+                height="300"
+              />
+              <h3 class="portfolio">Taxi Service</h3>
+              <p class="portfolio-text">Marketing</p>
+            </div>
+          </li>
+          <li>
+            <div class="container-img-portfolio">
+              <img
+                src="./images/our-portfolio/screen-illustrations.jpg"
+                alt="Night wallpaper"
+                width="360"
+                height="300"
+              />
+              <h3 class="portfolio">Screen Illustrations</h3>
+              <p class="portfolio-text">Design</p>
+            </div>
+          </li>
+          <li>
+            <div class="container-img-portfolio">
+              <img
+                src="./images/our-portfolio/online-courses.jpg"
+                alt="Girl on the street studying a course on her phone"
+                width="360"
+                height="300"
+              />
+              <h3 class="portfolio">Online Courses</h3>
+              <p class="portfolio-text">Marketing</p>
+            </div>
+          </li>
+        </ul>
       </section>
     </main>
     <!-- Footer logo and text -->
 
-    <footer>
-      <section>
-        <a href="./index.html">Web<span>Studio</span></a>
-        <p>
+    <footer class="footer">
+      <section class="footer-section">
+        <a class="web-footer" href="./index.html"
+          >Web<span class="studio-footer">Studio</span></a
+        >
+        <p class="footer-text">
           Increase the flow of customers and sales for your business with
           digital marketing & growth solutions.
         </p>
