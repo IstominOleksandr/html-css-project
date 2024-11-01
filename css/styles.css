@@ -1,5 +1,16 @@
+*,
+*::before,
+*::after {
+    box-sizing: border-box;
+}
 body {
+    color: #434455;
+    background-color: #FFFFFF;
     font-family: Roboto, sans-serif;
+    font-weight: 400;
+    font-size: 16px;
+    line-height: 1.5;
+    letter-spacing: 0.02em;
 }
 a {
     text-decoration: none;
@@ -12,9 +23,12 @@ p {
     margin: 0;
 }
 ul {
-    list-style: none;
+    list-style-type: none;
     padding-left: 0;
     margin: 0;
+}
+.container {
+    margin: 0 156;
 }
 .web-header {
     font-family: Raleway;
@@ -38,10 +52,6 @@ ul {
 }
 .header-address {
     color: #434455;
-    font-weight: 400;
-    font-size: 16px;
-    line-height: 1.5;
-    letter-spacing: 0.02em;
 }
 .effective-solutions-for-your-business {
     color: #FFFFFF;
@@ -80,13 +90,6 @@ ul {
     line-height: 1.2;
     letter-spacing: 0.02em;
 }
-.analysis-text {
-    color: #434455;
-    font-weight: 400;
-    font-size: 16px;
-    line-height: 1.5;
-    letter-spacing: 0.02em;
-}
 .our-team-main {
     color: #2E2F42;
     font-weight: 700;
@@ -104,11 +107,6 @@ ul {
     text-align: center;
 }
 .text-our-team {
-    color: #434455;
-    font-weight: 400;
-    font-size: 16px;
-    line-height: 1.5;
-    letter-spacing: 0.02em;
     text-align: center;
 }
 .container-img-team {
@@ -122,9 +120,6 @@ ul {
     letter-spacing: 0.02em;
     text-align: center;
 }
-.our-portfolio-list {
-
-}
 .portfolio {
     color: #2E2F42;
     font-weight: 500;
@@ -132,14 +127,7 @@ ul {
     line-height: 1.2;
     letter-spacing: 0.02em;
 }
-.portfolio-text {
-    color: #434455;
-    font-weight: 400;
-    font-size: 16px;
-    line-height: 1.5;
-    letter-spacing: 0.02em;
-}
-.footer-section {
+.footer {
     background-color: #2E2F42;
 }
 .web-footer {
@@ -156,8 +144,4 @@ ul {
 }
 .footer-text {
     color: #F4F4FD;
-    font-weight: 400;
-    font-size: 16px;
-    line-height: 1.5;
-    letter-spacing: 0.02em;
 }
